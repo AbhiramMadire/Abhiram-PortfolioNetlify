@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhiram Madire | Data Science & Statistics Portfolio</title>
+    <meta name="description" content="Portfolio of Abhiram Madire, Data Science and Statistics student at UCF. Experienced in prompt engineering, data analysis, and software development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <div class="loader-text">Loading portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-progress-bar" id="scrollIndicator"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>AM<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Involvement</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline btn-sm">Hire Me</a>
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge reveal">
+                        <span class="badge-dot"></span>
+                        Open for Internships & Research Opportunities
+                    </div>
+                    <h1 class="hero-title reveal">
+                        Hi, I'm <span class="gradient-text">Abhiram Madire</span>
+                    </h1>
+                    <h2 class="hero-subtitle reveal">
+                        I am a <span class="typing-text" id="typing-text"></span>
+                    </h2>
+                    <p class="hero-description reveal">
+                        Data Science and Statistics student at UCF with a passion for applying data-driven thinking, statistical analysis, and emerging artificial intelligence technologies to solve complex, real-world problems.
+                    </p>
+                    <div class="hero-cta reveal">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span> <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get in Touch</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="visual-blob-wrapper">
+                        <div class="visual-blob">
+                            <div class="avatar-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="visual-badge badge-left">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Data Science</h4>
+                                <p>UCF Student</p>
+                            </div>
+                        </div>
+                        <div class="visual-badge badge-right">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h4>AI & Prompt Eng.</h4>
+                                <p>Researcher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Who I Am</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info reveal-left">
+                        <h3>Fusing Data Science, Statistics, and AI</h3>
+                        <p class="about-lead">
+                            I am a dual-major undergraduate student at the University of Central Florida with a solid technical foundation in programming, statistical modeling, and artificial intelligence.
+                        </p>
+                        <p>
+                            My experience spans structured academic research in prompt engineering, leadership roles in school/community organizations, and hands-on tool development. I thrive on translating massive datasets and complex mathematical models into actionable strategies, and I am actively expanding my skillset in data analytics and deep learning.
+                        </p>
+                        
+                        <div class="about-details-grid">
+                            <div class="detail-item">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <h5>University</h5>
+                                    <p>Univ. of Central Florida</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h5>Expected Graduation</h5>
+                                    <p>May 2029</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <div>
+                                    <h5>GPA (High School)</h5>
+                                    <p>3.8 / 4.0 (Unweighted)</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h5>Location</h5>
+                                    <p>Orlando / St. Johns, FL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats reveal-right">
+                        <div class="stats-card glass-card">
+                            <div class="stat-number gradient-text">3.8</div>
+                            <div class="stat-label">High School GPA</div>
+                        </div>
+                        <div class="stats-card glass-card">
+                            <div class="stat-number gradient-text">2+</div>
+                            <div class="stat-label">In-Progress Certifications</div>
+                        </div>
+                        <div class="stats-card glass-card">
+                            <div class="stat-number gradient-text">2</div>
+                            <div class="stat-label">Major Fields of Study</div>
+                        </div>
+                        <div class="stats-card glass-card">
+                            <div class="stat-number gradient-text">5+</div>
+                            <div class="stat-label">AI & Analytics Specialties</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Arsenal</span>
+                    <h2 class="section-title">Technical & Soft Skills</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Technical Languages -->
+                    <div class="skills-card glass-card reveal-left">
+                        <h3 class="skills-card-title"><i class="fas fa-code"></i> Technical Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C Programming</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python (Fundamentals)</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL (Database querying)</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Software & Tools -->
+                    <div class="skills-card glass-card reveal">
+                        <h3 class="skills-card-title"><i class="fas fa-toolbox"></i> Tools & Software</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Microsoft Excel (Data Modeling)</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AI Tools & Prompt Design</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NotebookLM & LLMs</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="--width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-card glass-card reveal-right">
+                        <h3 class="skills-card-title"><i class="fas fa-brain"></i> Professional Mindset</h3>
+                        <p class="skills-card-desc">
+                            Core strengths that govern my problem-solving approach, collaboration, and study habits.
+                        </p>
+                        <div class="soft-skills-tags">
+                            <span class="soft-skill-tag"><i class="fas fa-comments"></i> Communication</span>
+                            <span class="soft-skill-tag"><i class="fas fa-display"></i> Presentation</span>
+                            <span class="soft-skill-tag"><i class="fas fa-chart-pie"></i> Analytical Thinking</span>
+                            <span class="soft-skill-tag"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+                            <span class="soft-skill-tag"><i class="fas fa-magnifying-glass-chart"></i> Critical Thinking</span>
+                            <span class="soft-skill-tag"><i class="fas fa-users"></i> Peer Instruction</span>
+                            <span class="soft-skill-tag"><i class="fas fa-hands-helping"></i> Community Outreach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Creations</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card glass-card reveal-left">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient"></div>
+                            <div class="project-placeholder-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="project-badge">Research</div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span><i class="far fa-calendar-alt"></i> Spring 2026</span>
+                                <span><i class="far fa-building"></i> UCF (ENC1102)</span>
+                            </div>
+                            <h3 class="project-title">Prompt Engineering Research Study</h3>
+                            <p class="project-description">
+                                Designed and conducted a primary research study analyzing how prompt structure affects AI response quality using Google NotebookLM. Compared baseline, role-based, and structured exam-context prompts across eight qualitative coding categories. Produced a coded data table showing structured, role-based prompts yielded significantly more useful exam-prep responses.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Prompt Design</span>
+                                <span>NotebookLM</span>
+                                <span>Qualitative Coding</span>
+                                <span>AI Systems</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="project-link-btn" aria-label="Request more details on Prompt Engineering Research Study">
+                                    <span>Learn More</span> <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-card reveal-right">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient"></div>
+                            <div class="project-placeholder-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="project-badge">Software</div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span><i class="far fa-calendar-alt"></i> Fall 2025</span>
+                                <span><i class="fas fa-user"></i> Personal Project</span>
+                            </div>
+                            <h3 class="project-title">Mortgage Calculator</h3>
+                            <p class="project-description">
+                                Built a Python-based mortgage calculator that computes monthly payments using home price, down payment, interest rate, and loan term inputs. Integrated financial calculation features to compare payment strategies like bi-weekly payments, extra principal payments, and lump-sum contributions. Created detailed amortization calculations showing principal vs. interest splits.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>Data Modeling</span>
+                                <span>Financial Logic</span>
+                                <span>Amortization</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="project-link-btn" aria-label="Request code for Mortgage Calculator">
+                                    <span>Source Code</span> <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Involvement Section -->
+        <section id="experience" class="section experience-section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Leadership & Community</span>
+                    <h2 class="section-title">Community Involvement</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- HSS -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot">
+                            <i class="fas fa-users-viewfinder"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2024 – Present</span>
+                                <h3>Hindu Swayamsevak Sangh (HSS)</h3>
+                                <h4 class="timeline-role">Volunteer & Communications Contributor</h4>
+                                <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jacksonville & St. Augustine Chapters</p>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Drafted and coordinated community outreach communications for one of the nation's largest Hindu-American organizations.</li>
+                                <li>Contributed to chapter-level event coordination and inter-chapter correspondence across St. Johns County and Jacksonville.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Link Crew Leader -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot">
+                            <i class="fas fa-people-carry-box"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2023 – 2025</span>
+                                <h3>Link Crew Leader</h3>
+                                <h4 class="timeline-role">Peer Mentor | Freshman Transition Program</h4>
+                                <p class="timeline-location"><i class="fas fa-school"></i> Beachside High School</p>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Selected through a competitive application process to mentor incoming freshmen as part of a nationally recognized high school transition program operating in 3,700+ schools across the U.S.</li>
+                                <li>Guided a dedicated small group of freshmen through academic and social adjustment, providing hands-on support in math and science.</li>
+                                <li>Helped students build relationships with teachers and counselors, navigate school resources, and develop confidence during their transition.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Chess Tutor -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2023 – 2024</span>
+                                <h3>Volunteer Chess Tutor</h3>
+                                <h4 class="timeline-role">Chess Instructor</h4>
+                                <p class="timeline-location"><i class="fas fa-house-chimney"></i> Community Clubhouse, St. Johns County, FL</p>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Taught chess fundamentals and strategic thinking to 30–40 students drawn from three surrounding communities.</li>
+                                <li>Developed structured instructional sessions for youth learners of varying skill levels, building patience and communication skills.</li>
+                                <li>Helped students develop analytical reasoning and problem-solving habits through guided gameplay and post-game analysis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Academic Journey</span>
+                    <h2 class="section-title">Education & Credentials</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="education-grid">
+                    <!-- Education Cards -->
+                    <div class="education-column reveal-left">
+                        <h3 class="subsection-title"><i class="fas fa-graduation-cap"></i> Academic Education</h3>
+                        
+                        <!-- UCF -->
+                        <div class="education-card glass-card">
+                            <div class="edu-header">
+                                <span class="edu-date">Expected May 2029</span>
+                                <h3>University of Central Florida (UCF)</h3>
+                                <h4 class="edu-degree">Bachelor of Science in Data Science | Bachelor of Science in Statistics</h4>
+                                <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Orlando, FL</p>
+                            </div>
+                            <div class="edu-details">
+                                <p><strong>Relevant Coursework:</strong></p>
+                                <ul class="course-list">
+                                    <li>Computer Science I (COP3502C)</li>
+                                    <li>Introduction to Programming with C (COP3223C)</li>
+                                    <li>Statistical Methods II (STA4163)</li>
+                                    <li>Statistical Methods I (STA2023)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Beachside HS -->
+                        <div class="education-card glass-card">
+                            <div class="edu-header">
+                                <span class="edu-date">May 2025</span>
+                                <h3>Beachside High School</h3>
+                                <h4 class="edu-degree">High School Diploma</h4>
+                                <p class="edu-location"><i class="fas fa-map-marker-alt"></i> St. Johns, FL</p>
+                            </div>
+                            <div class="edu-details">
+                                <p class="gpa-tag"><strong>GPA:</strong> 3.8 / 4.0 (Unweighted)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications & Campus Orgs -->
+                    <div class="education-column reveal-right">
+                        <h3 class="subsection-title"><i class="fas fa-certificate"></i> Certifications & Coursework</h3>
+                        
+                        <div class="certs-list">
+                            <!-- Cert 1 -->
+                            <div class="cert-item glass-card">
+                                <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                                <div class="cert-info">
+                                    <h3>Prompt Engineering Masterclass</h3>
+                                    <p>Coursera | <span class="badge-progress">In Progress</span></p>
+                                    <p class="cert-desc">Covers advanced prompt design techniques for large language models across real-world applications.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 2 -->
+                            <div class="cert-item glass-card">
+                                <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="cert-info">
+                                    <h3>Google Data Analytics Professional Certificate</h3>
+                                    <p>Google | <span class="badge-progress">In Progress</span></p>
+                                    <p class="cert-desc">Covers data analysis, visualization, and SQL through hands-on projects toward the industry standard credential.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 3 -->
+                            <div class="cert-item glass-card">
+                                <div class="cert-icon"><i class="fab fa-rocketchat"></i></div>
+                                <div class="cert-info">
+                                    <h3>ChatGPT: Master AI Tools to Supercharge Productivity</h3>
+                                    <p>Coursera | 2026</p>
+                                    <p class="cert-desc">Specialization focused on leveraging generative AI tools effectively across professional and academic workflows.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 4 -->
+                            <div class="cert-item glass-card">
+                                <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+                                <div class="cert-info">
+                                    <h3>AI for Work and Life</h3>
+                                    <p>University of North Florida (UNF) | 2025</p>
+                                    <p class="cert-desc">Professional development course on applying AI tools in academic, workspace, and productivity contexts.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Campus Organizations -->
+                        <h3 class="subsection-title section-break-title"><i class="fas fa-users-rectangle"></i> Campus Organizations</h3>
+                        <div class="campus-orgs-grid">
+                            <div class="org-card glass-card">
+                                <h3>American Statistical Association (AMstat)</h3>
+                                <h4 class="org-sub">UCF Chapter | 2025 – Present</h4>
+                                <p>Engaged in workshops, events, and networking initiatives targeting professional development in data science and statistics.</p>
+                            </div>
+                            <div class="org-card glass-card">
+                                <h3>AI@UCF</h3>
+                                <h4 class="org-sub">Artificial Intelligence Club | 2025 – Present</h4>
+                                <p>Participating in UCF's leading AI group, studying machine learning pipelines, and collaborating on collaborative project modules.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-panel reveal-left">
+                        <h3>Let's Collaborate</h3>
+                        <p>I am seeking internship roles in Software Engineering, Data Science, and Machine Learning Research starting Summer/Fall. Feel free to reach out via email, phone, or LinkedIn!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-card glass-card">
+                                <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:madire.abhiram@googlemail.com">madire.abhiram@googlemail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-card glass-card">
+                                <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+19044848439">+1 (904) 484-8439</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-card glass-card">
+                                <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <p><a href="https://www.linkedin.com/in/abhiram-madire" target="_blank" rel="noopener noreferrer">Abhiram Madire</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-download-box">
+                            <a href="#" class="btn btn-primary btn-block" id="downloadResumeBtn">
+                                <i class="fas fa-download"></i> Download Resume (PDF)
+                            </a>
+                            <p class="resume-note">*Resume is pre-filled with content from the verified profile.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form UI -->
+                    <div class="contact-form-panel glass-card reveal-right">
+                        <form id="contactForm" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Full Name</label>
+                                    <div class="input-wrapper">
+                                        <i class="far fa-user input-icon"></i>
+                                        <input type="text" id="form-name" placeholder="John Doe" required>
+                                    </div>
+                                    <span class="error-msg" id="name-error">Name is required</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-email">Email Address</label>
+                                    <div class="input-wrapper">
+                                        <i class="far fa-envelope input-icon"></i>
+                                        <input type="email" id="form-email" placeholder="example@domain.com" required>
+                                    </div>
+                                    <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-subject">Subject</label>
+                                    <div class="input-wrapper">
+                                        <i class="far fa-bookmark input-icon"></i>
+                                        <input type="text" id="form-subject" placeholder="Opportunities, Collaboration, etc." required>
+                                    </div>
+                                    <span class="error-msg" id="subject-error">Subject is required</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-message">Message</label>
+                                    <div class="input-wrapper">
+                                        <textarea id="form-message" rows="5" placeholder="Hi Abhiram, I would love to connect..." required></textarea>
+                                    </div>
+                                    <span class="error-msg" id="message-error">Message cannot be empty</span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitFormBtn">
+                                <span>Send Message</span> <i class="far fa-paper-plane"></i>
+                            </button>
+                            <div class="form-status" id="formStatus"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bottom">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; 2026 Abhiram Madire. All rights reserved.</p>
+            </div>
+            <div class="footer-center">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abhiram-madire" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:madire.abhiram@googlemail.com" aria-label="Email Me">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <a href="tel:+19044848439" aria-label="Phone Number">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>Designed with <span class="heart-icon">&hearts;</span> &amp; Vanilla JS</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
